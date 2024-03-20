@@ -20,13 +20,21 @@ public class moveplayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(leftKey))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             rgbd.AddForce(Vector2.left * 5);
         }
-        if (Input.GetKey(rightKey))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             rgbd.AddForce(Vector2.right * 5);
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            rgbd.AddForce(Vector2.up * 5);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            rgbd.AddForce(Vector2.down * 5);
         }
     }
 
