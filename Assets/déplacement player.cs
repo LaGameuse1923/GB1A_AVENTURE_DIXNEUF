@@ -10,12 +10,11 @@ public class déplacementplayer : MonoBehaviour
     // Assign your GameObject you want to move Scene in the Inspector
     public GameObject m_MyGameObject;
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.LogError("yo");
+            //  Debug.LogError("yo");
             StartCoroutine(LoadYourAsyncScene());
 
             //SceneManager.LoadScene("Scene2", LoadSceneMode.Single);
@@ -30,19 +29,27 @@ public class déplacementplayer : MonoBehaviour
     {
         // Set the current Scene to be able to unload it later
         Scene currentScene = SceneManager.GetActiveScene();
+        
 
         // The Application loads the Scene in the background at the same time as the current Scene.
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(m_Scene, LoadSceneMode.Single);
 
         // Wait until the last operation fully loads to return anything
+        //Debug.Log(currentScene.name);
+        DontDestroyOnLoad(m_MyGameObject);
+
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
+        //Debug.Log("Active Scene is '" + currentScene.name + "'.");
+
+        
 
         // Move the GameObject (you attach this in the Inspector) to the newly loaded Scene
-        SceneManager.MoveGameObjectToScene(m_MyGameObject, SceneManager.GetSceneByName(m_Scene));
+        // SceneManager.MoveGameObjectToScene(m_MyGameObject, SceneManager.GetSceneByName(m_Scene));
         // Unload the previous Scene
-        SceneManager.UnloadSceneAsync(currentScene);
+
+        SceneManager.UnloadSceneAsync(currentScene.name);
     }
 }
