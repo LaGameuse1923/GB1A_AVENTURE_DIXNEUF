@@ -5,10 +5,16 @@ using UnityEngine.SceneManagement;
 public class déplacementplayer : MonoBehaviour
 {
     // Type in the name of the Scene you would like to load in the Inspector
+    public moveplayer moveplayer;
+    
     public string m_Scene;
 
     // Assign your GameObject you want to move Scene in the Inspector
     public GameObject m_MyGameObject;
+
+    public string sceneActuel;
+
+    private string GetNomScene;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,6 +22,7 @@ public class déplacementplayer : MonoBehaviour
         {
             //  Debug.LogError("yo");
             StartCoroutine(LoadYourAsyncScene());
+
 
             //SceneManager.LoadScene("Scene2", LoadSceneMode.Single);
             //SceneManager.UnloadSceneAsync("Scene1");
@@ -51,5 +58,10 @@ public class déplacementplayer : MonoBehaviour
         // Unload the previous Scene
 
         SceneManager.UnloadSceneAsync(currentScene.name);
+    }
+
+    void GetScene(string scene)
+    {
+        scene = GetNomScene;
     }
 }

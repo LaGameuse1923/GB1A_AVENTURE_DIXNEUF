@@ -655,8 +655,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82d9e02373388940afae3f78e5dd9af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveplayer: {fileID: 0}
   m_Scene: scene1
   m_MyGameObject: {fileID: 1534333330}
+  sceneActuel: 
 --- !u!4 &812105843
 Transform:
   m_ObjectHideFlags: 0
@@ -792,7 +794,7 @@ MonoBehaviour:
   leftKey: 276
   rightKey: 275
   rb: {fileID: 1534333332}
-  moveSpeed: 5000
+  speed: 60
 --- !u!50 &1534333332
 Rigidbody2D:
   serializedVersion: 4
