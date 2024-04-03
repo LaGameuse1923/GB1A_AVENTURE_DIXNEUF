@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - "\xE9p\xE9e"
+  - scene change
   layers:
   - Default
   - TransparentFX

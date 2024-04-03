@@ -2,8 +2,22 @@ using UnityEngine;
 
 public class PlayerSpawn : MonoBehaviour
 {
+
+    public int refspawn;
+    public moveplayer recupererindex;
+    public int avantindex;
+
     private void Awake()
     {
-       // GameObject.FindGameObjectsWithTag("Player") = transform.position;
+        recupererindex = GameObject.FindWithTag("Player").GetComponent<moveplayer>();
+        avantindex = recupererindex.avantindex;
+        if (avantindex == refspawn)
+        {
+            GameObject.FindWithTag("Player").transform.position = transform.position;
+        }
+
+
+
+        // GameObject.FindGameObjectsWithTag("Player") = transform.position;
     }
 }

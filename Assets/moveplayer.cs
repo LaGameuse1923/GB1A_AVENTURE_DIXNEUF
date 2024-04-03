@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class moveplayer : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class moveplayer : MonoBehaviour
     private float verticalMovement;
     public float speed;
     private Vector3 change;
+    public int avantindex;
 
     private string SceneDeSpawn;
     // Start is called before the first frame update
@@ -46,14 +48,27 @@ public class moveplayer : MonoBehaviour
 
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("scene change"))
+        {
+
+            avantindex = SceneManager.GetActiveScene().buildIndex;
+
+
+            //SceneManager.LoadScene("Scene2", LoadSceneMode.Single);
+            //SceneManager.UnloadSceneAsync("Scene1");
+
+        }
+    }
 
     //void MovePlayer(float _horizontalMovement, float _verticalMovement)
     //{
-       // Vector3 targetVelocity = new Vector2(_horizontalMovement, _verticalMovement);
-       // rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+    // Vector3 targetVelocity = new Vector2(_horizontalMovement, _verticalMovement);
+    // rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
 
 
-   // }
+    // }
 
 }
 

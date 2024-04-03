@@ -10,11 +10,13 @@ public class MeleeAttack : MonoBehaviour
         //animator = GetComponent<Animator>();
         hitbox = transform.Find("HitboxGameObjectName").GetComponent<BoxCollider2D>();
         BugAttack();
+        
     }
 
     private void Update()
     {
         //DeactivateHitbox();
+        
 
 
         if (Input.GetKeyDown(KeyCode.Space)) // Attack on Space key press.
@@ -25,6 +27,7 @@ public class MeleeAttack : MonoBehaviour
             Invoke("ActivateHitbox", 0.2f); // Activate hitbox after 0.2 seconds.
             Invoke("DeactivateHitbox", 0.4f); // Deactivate hitbox after 0.4 seconds.
         }
+
     }
 
     void BugAttack()
