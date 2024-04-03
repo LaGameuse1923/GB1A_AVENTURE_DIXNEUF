@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3eaea761aa4ae34793c1b3edd1b86d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 5
   waypoints:
   - {fileID: 600189217}
   - {fileID: 348298941}
@@ -795,7 +795,7 @@ MonoBehaviour:
   leftKey: 276
   rightKey: 275
   rb: {fileID: 1534333332}
-  speed: 60
+  speed: 180
   avantindex: 0
 --- !u!50 &1534333332
 Rigidbody2D:
