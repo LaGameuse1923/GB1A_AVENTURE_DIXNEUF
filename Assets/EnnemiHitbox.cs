@@ -11,6 +11,7 @@ public class Hitbox : MonoBehaviour
             // Damage or destroy the enemy.
             Debug.Log("Collision");
             Destroy(objectToDestroy);
+            inventory.instance.AddAmes(1);    
         }
     }
 }
