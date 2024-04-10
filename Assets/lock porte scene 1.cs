@@ -22,10 +22,11 @@ public class lockportescene1 : MonoBehaviour
                 Destroy(objectToDestroy);
             }
         }
-        
-        if (inventory.instance.clée)
-        {
-            Destroy(objectToDestroy);
+        if (nomDeLaPorte == "porte clée"){
+            if (inventory.instance.clée)
+            {
+                Destroy(objectToDestroy);
+             }
         }
     }
 }

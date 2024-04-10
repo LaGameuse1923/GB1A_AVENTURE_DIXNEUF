@@ -6,6 +6,7 @@ public class PlayerSpawn : MonoBehaviour
     public int refspawn;
     public moveplayer recupererindex;
     public int avantindex;
+    public string AversB;
 
     private void Awake()
     {
