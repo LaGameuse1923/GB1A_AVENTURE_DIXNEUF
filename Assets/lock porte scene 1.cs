@@ -5,6 +5,7 @@ using UnityEngine;
 public class lockportescene1 : MonoBehaviour
 {
     public GameObject objectToDestroy;
+    public string nomDeLaPorte;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +15,14 @@ public class lockportescene1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inventory.instance.Âmes >= 1)
+        if (nomDeLaPorte == "porte âme")
         {
-            Destroy(objectToDestroy);
+            if (inventory.instance.Âmes >= 10)
+            {
+                Destroy(objectToDestroy);
+            }
         }
+        
         if (inventory.instance.clée)
         {
             Destroy(objectToDestroy);

@@ -54,6 +54,7 @@ public class moveplayer : MonoBehaviour
         {
 
             avantindex = SceneManager.GetActiveScene().buildIndex;
+            Debug.Log("index");
 
 
             //SceneManager.LoadScene("Scene2", LoadSceneMode.Single);
