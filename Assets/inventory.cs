@@ -9,6 +9,7 @@ public class inventory : MonoBehaviour
     public static inventory instance;
     //voir booléen
     public bool clée;
+    public bool plusdedificulté;
 
     private void Awake()
     {
@@ -28,5 +29,10 @@ public class inventory : MonoBehaviour
     public void Getclee()
     {
        clée = true;
+    }
+
+    public void Dificulté()
+    {
+        plusdedificulté = true;
     }
 }

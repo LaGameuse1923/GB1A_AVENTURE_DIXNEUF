@@ -13,6 +13,8 @@ public class moveplayer : MonoBehaviour
 
     public Rigidbody2D rb;
 
+
+
     private Vector3 velocity = Vector3.zero;
     private float horizontalMovement;
     private float verticalMovement;
