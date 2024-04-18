@@ -13,5 +13,7 @@ public class Hitbox : MonoBehaviour
             Destroy(objectToDestroy);
             inventory.instance.AddAmes(1);    
         }
+
+
     }
 }

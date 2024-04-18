@@ -21,11 +21,17 @@ public class moveplayer : MonoBehaviour
     public float speed;
     private Vector3 change;
     public int avantindex;
+    private Animator animator;
+
+    public GameObject projectile;
 
     private string SceneDeSpawn;
     // Start is called before the first frame update
 
-
+    private void Start()
+    {
+   
+    }
     // Update is called once per frame
     void Update()
     {
@@ -33,6 +39,8 @@ public class moveplayer : MonoBehaviour
         //verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
         //MovePlayer(horizontalMovement, verticalMovement);
+        
+        animator = GetComponent<Animator>();
 
         change = Vector3.zero;
         change.x = Input.GetAxis("Horizontal");
@@ -40,6 +48,14 @@ public class moveplayer : MonoBehaviour
         if(change != Vector3.zero)
         {
             MoveCharacter();
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Debug.Log("FFFF");
+            tirer(); 
         }
     }
 
@@ -47,6 +63,12 @@ public class moveplayer : MonoBehaviour
     {
         rb.MovePosition(transform.position + change * speed * Time.deltaTime
             );
+
+    }
+
+    void tirer()
+    {
+        Instantiate(projectile, new Vector3(2.0f, 0, 0), Quaternion.identity);
 
     }
 
