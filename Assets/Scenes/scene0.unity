@@ -1550,7 +1550,7 @@ MonoBehaviour:
   leftKey: 276
   rightKey: 275
   rb: {fileID: 1534333332}
-  speed: 100
+  speed: 20
   avantindex: 0
   projectile: {fileID: 563865708253611807, guid: 40471461ff0e3ec4996bb2e79fa60583, type: 3}
 --- !u!50 &1534333332
