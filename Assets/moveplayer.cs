@@ -46,8 +46,8 @@ public class moveplayer : MonoBehaviour
         animator = GetComponent<Animator>();
 
         change = Vector3.zero;
-        change.x = Input.GetAxis("Horizontal");
-        change.y = Input.GetAxis("Vertical");
+        change.x = Input.GetAxisRaw("Horizontal");
+        change.y = Input.GetAxisRaw("Vertical");
         if(change != Vector3.zero)
         {
             MoveCharacter();
@@ -64,7 +64,7 @@ public class moveplayer : MonoBehaviour
 
     void MoveCharacter()
     {
-        rb.MovePosition(transform.position + change * speed * Time.deltaTime
+        rb.MovePosition(transform.position + change * speed * Time.fixedDeltaTime
             );
 
     }
