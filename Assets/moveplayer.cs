@@ -13,6 +13,8 @@ public class moveplayer : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    public GameObject playerPosition;
+
 
 
     private Vector3 velocity = Vector3.zero;
@@ -30,7 +32,8 @@ public class moveplayer : MonoBehaviour
 
     private void Start()
     {
-   
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
     void Update()
@@ -68,7 +71,7 @@ public class moveplayer : MonoBehaviour
 
     void tirer()
     {
-        Instantiate(projectile, new Vector3(2.0f, 0, 0), Quaternion.identity);
+        Instantiate(projectile, playerPosition.transform.position, Quaternion.identity);
 
     }
 

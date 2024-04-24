@@ -21,7 +21,6 @@ public class projectille : MonoBehaviour
             // Damage or destroy the enemy.
             Debug.Log("Collision");
             Destroy(objectToDestroy);
-            inventory.instance.AddAmes(1);
         }
 
 
@@ -31,28 +30,36 @@ public class projectille : MonoBehaviour
     void Awake()
     {
 
-        target = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Transform>();
+        target = GameObject.FindGameObjectWithTag("Enemy")?.GetComponent<Transform>();
+        Invoke("Destroyprojo", 1f); // Activate hitbox after 0.2 seconds.
     }
+
 
     // Update is called once per frame
     void Update()
     {
     
         Move();
+        
     }
 
     public void Move()
     {
 
-
-
         //catch the player when the player is near
-        if (Vector2.Distance(transform.position, target.position) > followdistance)
+            
+        if (target != null  && Vector2.Distance(transform.position, target.position) > followdistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
         }
 
 
+    }
+
+    public void Destroyprojo()
+    {
+        Debug.Log("destroy");
+        Destroy(objectToDestroy);
     }
 }
