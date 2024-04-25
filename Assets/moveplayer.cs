@@ -24,11 +24,12 @@ public class moveplayer : MonoBehaviour
     private Vector3 change;
     public int avantindex;
     private Animator animator;
-
+    private PlayerHealth playerHealth;
     public GameObject projectile;
 
     private string SceneDeSpawn;
     // Start is called before the first frame update
+
 
     private void Start()
     {
@@ -57,9 +58,10 @@ public class moveplayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("FFFF");
             tirer(); 
         }
+
+
     }
 
     void MoveCharacter()
@@ -70,6 +72,13 @@ public class moveplayer : MonoBehaviour
     }
 
     void tirer()
+    {
+        Instantiate(projectile, playerPosition.transform.position, Quaternion.identity);
+
+    }
+
+
+    void test()
     {
         Instantiate(projectile, playerPosition.transform.position, Quaternion.identity);
 

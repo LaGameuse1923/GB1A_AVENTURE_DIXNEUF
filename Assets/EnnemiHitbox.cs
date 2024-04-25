@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class Hitbox : MonoBehaviour
 {
+    public GameObject EnnemiPosition;
     public GameObject objectToDestroy;
+    public GameObject Soul;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("épée"))
@@ -11,7 +13,7 @@ public class Hitbox : MonoBehaviour
             // Damage or destroy the enemy.
             Debug.Log("Collision");
             Destroy(objectToDestroy);
-            inventory.instance.AddAmes(1);    
+            Instantiate(Soul, EnnemiPosition.transform.position, Quaternion.identity);
         }
 
 

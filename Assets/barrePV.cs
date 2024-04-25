@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class barrePV : MonoBehaviour
 {
+
+    public int currentHealth;
+    private Animator animator;
+
+
     // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetMaxHealth(int health)
     {
-        
+        Debug.Log("Pvdebase");
+        animator.SetFloat("Max PV", health);
     }
+
+    public void SetHealth(int health)
+    {
+        currentHealth = health;
+        Debug.Log("moinsdepv");
+        animator.SetFloat("Max PV", currentHealth);
+    }
+
+
 }

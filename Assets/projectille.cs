@@ -13,6 +13,11 @@ public class projectille : MonoBehaviour
     public Transform target;
     // Start is called before the first frame update
 
+
+    public GameObject EnnemiPosition;
+
+    public GameObject Soul;
+
     public GameObject objectToDestroy;
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,6 +26,7 @@ public class projectille : MonoBehaviour
             // Damage or destroy the enemy.
             Debug.Log("Collision");
             Destroy(objectToDestroy);
+            Instantiate(Soul, EnnemiPosition.transform.position, Quaternion.identity);
         }
 
 
