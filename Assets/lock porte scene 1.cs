@@ -17,13 +17,13 @@ public class lockportescene1 : MonoBehaviour
     {
         if (nomDeLaPorte == "porte âme")
         {
-            if (inventory.instance.Âmes >= 10)
+            if (inventaire.instance.Ames >= 10)
             {
                 Destroy(objectToDestroy);
             }
         }
         if (nomDeLaPorte == "porte clée"){
-            if (inventory.instance.clée)
+            if (inventaire.instance.clée)
             {
                 Destroy(objectToDestroy);
              }

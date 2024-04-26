@@ -58,7 +58,13 @@ public class moveplayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            tirer(); 
+           if(inventaire.instance.projectil == true)
+            {
+                tirer();
+            }
+            
+            
+
         }
 
 

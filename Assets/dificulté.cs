@@ -8,7 +8,7 @@ public class dificulté : MonoBehaviour
 
     private void Update()
     {
-        if (inventory.instance.plusdedificulté)
+        if (inventaire.instance.plusdedificulté)
         {
             Destroy(objectToDestroy);
         }
@@ -22,7 +22,7 @@ public class dificulté : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Destroy(objectToDestroy);
-            inventory.instance.Dificulté();
+            inventaire.instance.Dificulté();
         }
     }
 }
