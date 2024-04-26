@@ -264,6 +264,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: letout_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2002
+        width: 173
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa934714f28d194f9687950c95ed2c4
+      internalID: -1792426523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -283,6 +304,8 @@ TextureImporter:
       letout_5: -2058649648
       letout_6: -2024718162
       letout_7: 823938661
+      letout_8: -1034362600
+      letout_9: -1792426523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,8 +12,8 @@ public class Ame : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            Destroy(objectToDestroy);
             inventory.instance.AddAmes(1);
+            Destroy(objectToDestroy);
         }
     }
 

@@ -4,11 +4,12 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 4;
     public int currentHealth;
-
     public barrePV barrepv;
 
-    // Start is called before the first frame update
-    void Start()
+
+
+        // Start is called before the first frame update
+        void Start()
     {
         currentHealth = maxHealth;
         barrepv.SetMaxHealth(maxHealth);
@@ -22,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(1);
         }
     }
-    void TakeDamage(int domage)
+    public void TakeDamage(int domage)
     {
 
         currentHealth -= domage;

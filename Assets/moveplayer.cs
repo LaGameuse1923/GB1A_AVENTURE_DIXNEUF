@@ -24,7 +24,7 @@ public class moveplayer : MonoBehaviour
     private Vector3 change;
     public int avantindex;
     private Animator animator;
-    private PlayerHealth playerHealth;
+    public PlayerHealth playerHealth;
     public GameObject projectile;
 
     private string SceneDeSpawn;
@@ -78,11 +78,7 @@ public class moveplayer : MonoBehaviour
     }
 
 
-    void test()
-    {
-        Instantiate(projectile, playerPosition.transform.position, Quaternion.identity);
 
-    }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -97,8 +93,19 @@ public class moveplayer : MonoBehaviour
             //SceneManager.UnloadSceneAsync("Scene1");
 
         }
-    }
 
+
+
+
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Hello ^^ ");
+            playerHealth.TakeDamage(1);
+        }
+    }
     //void MovePlayer(float _horizontalMovement, float _verticalMovement)
     //{
     // Vector3 targetVelocity = new Vector2(_horizontalMovement, _verticalMovement);

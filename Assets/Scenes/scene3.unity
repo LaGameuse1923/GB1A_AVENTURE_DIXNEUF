@@ -227,7 +227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 189502045}
   objectToDestroy: {fileID: 189502045}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &189502049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -519,7 +521,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 406055312}
   objectToDestroy: {fileID: 406055312}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &406055316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -681,7 +685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 662516111}
   objectToDestroy: {fileID: 662516111}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &662516115
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -843,7 +849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 710316823}
   objectToDestroy: {fileID: 710316823}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &710316827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1135,7 +1143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 766410843}
   objectToDestroy: {fileID: 766410843}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &766410847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1297,7 +1307,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 960731208}
   objectToDestroy: {fileID: 960731208}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &960731212
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1459,7 +1471,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 967688284}
   objectToDestroy: {fileID: 967688284}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &967688288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2195,7 +2209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 1361315296}
   objectToDestroy: {fileID: 1361315296}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &1361315300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2712,7 +2728,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 1538033848}
   objectToDestroy: {fileID: 1538033848}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &1538033852
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3144,7 +3162,7 @@ Transform:
   m_GameObject: {fileID: 1915455415}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.6844, y: 24.5649, z: 9.971574}
+  m_LocalPosition: {x: 4.82, y: 24.5649, z: 9.971574}
   m_LocalScale: {x: 57.605694, y: 52.8843, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3411,7 +3429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326e0143b4803a14ebe8da8043f5ef22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnnemiPosition: {fileID: 2122898013}
   objectToDestroy: {fileID: 2122898013}
+  Soul: {fileID: 8207806419535719010, guid: fb1d087b566007443a582ca98954c1c9, type: 3}
 --- !u!61 &2122898017
 BoxCollider2D:
   m_ObjectHideFlags: 0
