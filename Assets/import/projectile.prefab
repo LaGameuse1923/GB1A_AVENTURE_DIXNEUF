@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -1034362600, guid: f95137037924ad447bef65e15d9436a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,6 +103,8 @@ MonoBehaviour:
   catchdistance: 0
   speed: 5
   target: {fileID: 599819014604312371, guid: 7f3160d2b783d0a4fbda95cd6d62a704, type: 3}
+  EnnemiPosition: {fileID: 0}
+  Soul: {fileID: 0}
   objectToDestroy: {fileID: 563865708253611807}
 --- !u!50 &8520103626180662909
 Rigidbody2D:

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class inventaire : MonoBehaviour
 {
 
     public int Ames;
+    public Text AmesText;
 
     public static inventaire instance;
     //voir booléen
@@ -41,6 +43,13 @@ public class inventaire : MonoBehaviour
     {
         Debug.Log("plusAme");
         Ames += _ame;
+        ajoutAmes();
+
+    }
+
+    public void ajoutAmes()
+    {
+        AmesText.text = Ames.ToString();
     }
 
     public void Getclee()

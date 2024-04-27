@@ -44,8 +44,9 @@ public class moveplayer : MonoBehaviour
 
         //MovePlayer(horizontalMovement, verticalMovement);
         
-        animator = GetComponent<Animator>();
-
+        animator = GetComponent<Animator>(); 
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
@@ -54,6 +55,11 @@ public class moveplayer : MonoBehaviour
             MoveCharacter();
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
+            animator.SetBool("mouvement", true);
+        }
+        else
+        {
+            animator.SetBool("mouvement", false);
         }
 
         if (Input.GetKeyDown(KeyCode.F))

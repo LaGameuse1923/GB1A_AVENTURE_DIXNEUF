@@ -1170,6 +1170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ames: 0
+  AmesText: {fileID: 0}
   "cl\xE9e": 0
   "plusdedificult\xE9": 0
 --- !u!114 &1073451657
@@ -2222,6 +2223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ames: 0
+  AmesText: {fileID: 1073451657}
   "cl\xE9e": 0
   "plusdedificult\xE9": 0
   projectil: 0
@@ -2261,8 +2263,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 102.86914, y: -101.25055}
-  m_SizeDelta: {x: 105.49042, y: 105.49042}
+  m_AnchoredPosition: {x: 103.9, y: -101.6}
+  m_SizeDelta: {x: 108.0195, y: 108.0195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1854684942
 Animator:
