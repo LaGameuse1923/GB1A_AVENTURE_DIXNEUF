@@ -294,7 +294,7 @@ TextureImporter:
         width: 52
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,6 +302,48 @@ TextureImporter:
       bones: []
       spriteID: 2b1abcddc80afc54eb6e983c4ef59504
       internalID: -1034362600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letout_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2132
+        width: 273
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b641b6efde44df488529640fefc2e3d
+      internalID: -192669590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letout_11
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2364
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15f832224585b94c898d9f626bef2ab
+      internalID: -2003675757
       vertices: []
       indices: 
       edges: []
@@ -319,6 +361,8 @@ TextureImporter:
     nameFileIdTable:
       letout_0: -2084725445
       letout_1: -2054513897
+      letout_10: -192669590
+      letout_11: -2003675757
       letout_2: -751527031
       letout_3: -1518219137
       letout_4: 926951881

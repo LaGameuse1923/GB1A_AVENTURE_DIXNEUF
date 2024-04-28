@@ -14,6 +14,7 @@ public class inventaire : MonoBehaviour
     public bool clée;
     public bool plusdedificulté;
     public bool projectil;
+    public bool hache;
 
     // Start is called before the first frame update
 
@@ -55,6 +56,10 @@ public class inventaire : MonoBehaviour
     public void Getclee()
     {
         clée = true;
+    }
+    public void Gethache()
+    {
+        hache = true;
     }
 
     public void Dificulté()

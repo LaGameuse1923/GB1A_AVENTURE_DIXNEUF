@@ -7,6 +7,7 @@ public class barrePV : MonoBehaviour
 
     public int currentHealth;
     private Animator animator;
+    public GameObject objectToDestroy;
 
 
     // Start is called before the first frame update
@@ -27,6 +28,10 @@ public class barrePV : MonoBehaviour
         currentHealth = health;
         Debug.Log("moinsdepv");
         animator.SetFloat("Max PV", currentHealth);
+        if (currentHealth == 0)
+        {
+            Destroy(objectToDestroy);
+        }
     }
 
 

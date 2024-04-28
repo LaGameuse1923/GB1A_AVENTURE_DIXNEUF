@@ -1,0 +1,2348 @@
+fileFormatVersion: 2
+guid: c0d6564527251a045b1f17cb53d758c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "d\xE9cord2_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5d17ee0abff2d4f9b82752c21bc240
+      internalID: 680894487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_1"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4028cdef91677964e99aebaee566f105
+      internalID: 1769074357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_2"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fe7898be43b5c45817605341fec24f
+      internalID: 1851144572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_3"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e2713fe8e14324194d32806f2d2bbc
+      internalID: -1544419622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_4"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0490731f3c18064ba2926d14f88725b
+      internalID: -1051284600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_5"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda301957aa435f4b88601ce7ba862c4
+      internalID: 1550204574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_6"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce32dfd8c89d9f41ae557922047f512
+      internalID: -738434786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_7"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56ff2f4b9711a84db109e0040e9a830
+      internalID: 2070446175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_8"
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0efd6c6636f9c245b2fd9c08c0c3dc8
+      internalID: -487707304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_9"
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb7c424f9ec3ab4dae7e96d4ec2694b
+      internalID: -264078942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_10"
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2335
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aa93bbca12c794983f5a6138819f67
+      internalID: -1494498537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_17"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147d50d3025fc374b9360337d65e3f03
+      internalID: 1940377735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_18"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdba3206662158f44ab68dddcb7fba12
+      internalID: 60533394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_19"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7674e2aa28977994b9dbb7e3ceb5e764
+      internalID: -831195126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_20"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35f3c213c72b2142bb2441edfb52a45
+      internalID: 646344679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_21"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe9cdef5e200940a3062c3184cf6c6
+      internalID: 1745589671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_22"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639526e722d7f574c90f6ed67b7eaa3c
+      internalID: -268173305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_23"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d377860ee3ee3ab41ab1d3e3a75483be
+      internalID: 1575935208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_24"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c398384acba98c45a06f71bc5fc4c5b
+      internalID: -1799493951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_27"
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8303bd89d6b71541b4b2049def71d50
+      internalID: -84762016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_28"
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099843607c97aad4d82cc64e1e359907
+      internalID: -594252401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_29"
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f046aee2f7a544c82640e9e4bea1d5
+      internalID: -1223386207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_30"
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e78c74b487dff4b9b09adc43f9eee5
+      internalID: -606982141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_31"
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e224d312d1f9c439b4d6dd6ca17d90
+      internalID: 935583508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_32"
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7407d12cd7641ed4b99f014cd74877f4
+      internalID: 876167116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_33"
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa646f1424b6384b9998c0c345268b4
+      internalID: -1481498111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_34"
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 2190
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e63b26103311fe40bd5844e0062607a
+      internalID: -995205430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_35"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf4cc87a55070346af44af4f6eafcf2
+      internalID: -148553724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_36"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd19492759ad0604585a7d987b735456
+      internalID: 652245356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_37"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c90da293e25284eaf7141b751c7a8e
+      internalID: -71190049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_38"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fed5e8d1b34e1b4bb4364729104e297
+      internalID: 204202410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_39"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a95fdbdd2a5648b5c5b7f10a63968
+      internalID: -1674676161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_40"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4114bc04d9b804e4f90ccf6294889378
+      internalID: 361239131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_41"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d2394de15ebf64ca40542973c8abc2
+      internalID: 1450361040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_42"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a141eaeeebe08a43911e22e043c0721
+      internalID: -1912003676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_45"
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384354dc01262d94392f5a160cdc4196
+      internalID: -71063752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_46"
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1334bbe1aa0003543a1eebd64fc5ed93
+      internalID: -1844481956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_47"
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f34bc211880d243882a6a5dfce4890
+      internalID: -452892922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_48"
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30509f0bc3b8eba4596e447990313cba
+      internalID: 1614752331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_49"
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902bbb7b7635c5d4eb74b86f427a9251
+      internalID: 2086666976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_50"
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec7b72344e199a4f823f91fb8b021e6
+      internalID: 771745898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_51"
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2045
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102c41d53fe76eb4a935ebd2593fb5a5
+      internalID: 792420953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_53"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45bbc2ea2711940af5598182bd8e6a
+      internalID: -1291622193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_54"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9984b562be52f84181d2f45f28dead2
+      internalID: 1510940212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_55"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fe4027a503cd146a53ed131540b575
+      internalID: 805328006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_56"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f5079ef7c3e2e4c92df6ab0f238eac
+      internalID: 1465710464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_57"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8d486ea71140408a372be175858d5
+      internalID: 1052304763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_58"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8501e088880e8b148bead63c582358da
+      internalID: 1393163885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_59"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a93b7d18d7faf6438bbd200ec1cc2a4
+      internalID: 987483627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_60"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa92af9bcfcde24680a757ce55fc03c
+      internalID: 440498702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_63"
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db85bc5251f740488ceda7f968737f4
+      internalID: -621907610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_64"
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e29dfa4bef383478bae49e55229c75
+      internalID: 676974207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_65"
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8731e7fbfe29b3e4fafa8a3fc733b88c
+      internalID: 1881432104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_66"
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e6ab0a9ed2c14f9ff59781738a344
+      internalID: 1058402230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_67"
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc184ac328cc6874daa5fd076b80b5fb
+      internalID: 1041027906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_68"
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc69b32b772d5db49aac86d7576dfc68
+      internalID: -454278372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_69"
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 1900
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07545cf340679044e89a82f3657f997d
+      internalID: 1570669300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_71"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1755
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4814db11d10b9d64da44a017ba6dcc64
+      internalID: 1570449139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_72"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1755
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40aaa3d6f365c844a30af5659434a6d
+      internalID: -1485655464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_76"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1755
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545f9abbf875a644aa8e6bfee2ead5b6
+      internalID: -1074907454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_77"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1755
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d425a02d1e7e7641a99e2ccefa73e32
+      internalID: 749090800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_89"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1610
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffaf306d37ffcf4abf0854be4d933a9
+      internalID: -1137448838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_90"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1610
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e839a749ba6acf42bcc07bc37d45b2c
+      internalID: 1544733366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_93"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1610
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67de52c115957b409f009ac3b3cd496
+      internalID: -368222661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_94"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1610
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd19c8c9cccd6a49a2fa33ac98dce78
+      internalID: 522151671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_96"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1465
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3297b33ffcdd94493603e2bdf12df6
+      internalID: 1251178597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_97"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1465
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed159d01351b00b409c16c502d3f9949
+      internalID: -769058209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_100"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1465
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cab4fb209c63f48bd4e40c570856fd
+      internalID: 1892457868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_101"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1465
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c27879ef1dfb45ac8a7d6b388ac57
+      internalID: -1955279573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_103"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c154ec156217244b8a68159f985acf
+      internalID: -465570791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_104"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1320
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ef38080fb9d81409f7baf71af017b3
+      internalID: -1286972770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_107"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1320
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03639e9ab029ef340a8d6d98da3d48cb
+      internalID: -1802564674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_108"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1320
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6c3ddf7bc08ea4e958027873d5dacc
+      internalID: 113780589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_110"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1175
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5c1e75b30435e49a0bda5dcd71279e
+      internalID: -610162280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_111"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1175
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff410289c249ad449f5f0e6b8f0e63b
+      internalID: 632324221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_115"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1175
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09081aac849edb47a888e03a6ff6abb
+      internalID: 633625655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_116"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1175
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bc099170eb8db44b7a67564982eef0
+      internalID: -334358086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_118"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1030
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1f5b38c9bdbb74e97c189472c34443
+      internalID: 2001428546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_119"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1030
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7413f935e2fc341b90cf13be959e61
+      internalID: 285847830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_120"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1030
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c1ed4c92ca8f742a3376e293559739
+      internalID: -1788488450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_123"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1030
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801cee3fc0fa2cd469995f98d52a902f
+      internalID: 64940999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_124"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1030
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adfe0411ecb1db45a4069f958c85ba5
+      internalID: 1213717325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_125"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1030
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51b669d92664bb49a4b6e61b562ae48
+      internalID: -1368595495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_134"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570f7b3d603be3498c3e22dee966ce9
+      internalID: -1804658699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_135"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 740
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9addb4142b2087f449b3ee15e53ad648
+      internalID: -2069762179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_136"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 740
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338c9a2c736d4d0478c55a065b3600c9
+      internalID: -1470188082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_137"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 740
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926910b497297d4f9703f608a4dcb19
+      internalID: 2091618603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_138"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 740
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ead91eb06cc8c408d95c03d6cacc9e
+      internalID: -2118314397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_139"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 740
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b82697fc343d9f42a5aa8f5a0663987
+      internalID: 326989670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_141"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 595
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780379c5f853c3948ba1ef61cdb2eee9
+      internalID: 2049398160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_143"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 595
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecf67359e78ff24f8cf78e5465dd100
+      internalID: 63817384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_144"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 595
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bcb59a5fd65b64baee8368d8de33d5
+      internalID: -4470395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_145"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 595
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34a57a4a481bc6429df64760d407b2c
+      internalID: 1124889542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_149"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 450
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da33c87b62811c4b97caa7693c9ab9c
+      internalID: 1226622096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_150"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 450
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d4af2b8c2a4fd418552b493400e1b2
+      internalID: -1597499547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_151"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 450
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539e332323062f74fb6658a483c5dea6
+      internalID: -894691840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_152"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 305
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5d2389a8b39d24abd7f50e05601dfe
+      internalID: 1359921271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_153"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 305
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78331eb1e35383498381ae8f55bd92e
+      internalID: -1169235236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9cord2_154"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 305
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3879c808f48a6469379bd81df9f631
+      internalID: 926621158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "d\xE9cord2_0": 680894487
+      "d\xE9cord2_1": 1769074357
+      "d\xE9cord2_10": -1494498537
+      "d\xE9cord2_100": 1892457868
+      "d\xE9cord2_101": -1955279573
+      "d\xE9cord2_102": -68954524
+      "d\xE9cord2_103": -465570791
+      "d\xE9cord2_104": -1286972770
+      "d\xE9cord2_105": -397469408
+      "d\xE9cord2_106": -810836005
+      "d\xE9cord2_107": -1802564674
+      "d\xE9cord2_108": 113780589
+      "d\xE9cord2_109": -883964072
+      "d\xE9cord2_11": 1898334485
+      "d\xE9cord2_110": -610162280
+      "d\xE9cord2_111": 632324221
+      "d\xE9cord2_112": -593107514
+      "d\xE9cord2_113": -1536888284
+      "d\xE9cord2_114": 825099479
+      "d\xE9cord2_115": 633625655
+      "d\xE9cord2_116": -334358086
+      "d\xE9cord2_117": -52737250
+      "d\xE9cord2_118": 2001428546
+      "d\xE9cord2_119": 285847830
+      "d\xE9cord2_12": 1809724137
+      "d\xE9cord2_120": -1788488450
+      "d\xE9cord2_121": 1650915023
+      "d\xE9cord2_122": -226601635
+      "d\xE9cord2_123": 64940999
+      "d\xE9cord2_124": 1213717325
+      "d\xE9cord2_125": -1368595495
+      "d\xE9cord2_126": -1412849266
+      "d\xE9cord2_127": 2138350034
+      "d\xE9cord2_128": -282411976
+      "d\xE9cord2_129": 1511477290
+      "d\xE9cord2_13": 30053674
+      "d\xE9cord2_130": 1667937236
+      "d\xE9cord2_131": -1265452954
+      "d\xE9cord2_132": -680549691
+      "d\xE9cord2_133": -636941232
+      "d\xE9cord2_134": -1804658699
+      "d\xE9cord2_135": -2069762179
+      "d\xE9cord2_136": -1470188082
+      "d\xE9cord2_137": 2091618603
+      "d\xE9cord2_138": -2118314397
+      "d\xE9cord2_139": 326989670
+      "d\xE9cord2_14": 319708303
+      "d\xE9cord2_140": 1212141422
+      "d\xE9cord2_141": 2049398160
+      "d\xE9cord2_142": -258392134
+      "d\xE9cord2_143": 63817384
+      "d\xE9cord2_144": -4470395
+      "d\xE9cord2_145": 1124889542
+      "d\xE9cord2_146": 1695624680
+      "d\xE9cord2_147": -1190965414
+      "d\xE9cord2_148": 1186093340
+      "d\xE9cord2_149": 1226622096
+      "d\xE9cord2_15": 139457003
+      "d\xE9cord2_150": -1597499547
+      "d\xE9cord2_151": -894691840
+      "d\xE9cord2_152": 1359921271
+      "d\xE9cord2_153": -1169235236
+      "d\xE9cord2_154": 926621158
+      "d\xE9cord2_16": 529573502
+      "d\xE9cord2_17": 1940377735
+      "d\xE9cord2_18": 60533394
+      "d\xE9cord2_19": -831195126
+      "d\xE9cord2_2": 1851144572
+      "d\xE9cord2_20": 646344679
+      "d\xE9cord2_21": 1745589671
+      "d\xE9cord2_22": -268173305
+      "d\xE9cord2_23": 1575935208
+      "d\xE9cord2_24": -1799493951
+      "d\xE9cord2_25": -214803037
+      "d\xE9cord2_26": 1919701431
+      "d\xE9cord2_27": -84762016
+      "d\xE9cord2_28": -594252401
+      "d\xE9cord2_29": -1223386207
+      "d\xE9cord2_3": -1544419622
+      "d\xE9cord2_30": -606982141
+      "d\xE9cord2_31": 935583508
+      "d\xE9cord2_32": 876167116
+      "d\xE9cord2_33": -1481498111
+      "d\xE9cord2_34": -995205430
+      "d\xE9cord2_35": -148553724
+      "d\xE9cord2_36": 652245356
+      "d\xE9cord2_37": -71190049
+      "d\xE9cord2_38": 204202410
+      "d\xE9cord2_39": -1674676161
+      "d\xE9cord2_4": -1051284600
+      "d\xE9cord2_40": 361239131
+      "d\xE9cord2_41": 1450361040
+      "d\xE9cord2_42": -1912003676
+      "d\xE9cord2_43": 31361420
+      "d\xE9cord2_44": 734803946
+      "d\xE9cord2_45": -71063752
+      "d\xE9cord2_46": -1844481956
+      "d\xE9cord2_47": -452892922
+      "d\xE9cord2_48": 1614752331
+      "d\xE9cord2_49": 2086666976
+      "d\xE9cord2_5": 1550204574
+      "d\xE9cord2_50": 771745898
+      "d\xE9cord2_51": 792420953
+      "d\xE9cord2_52": 1546515811
+      "d\xE9cord2_53": -1291622193
+      "d\xE9cord2_54": 1510940212
+      "d\xE9cord2_55": 805328006
+      "d\xE9cord2_56": 1465710464
+      "d\xE9cord2_57": 1052304763
+      "d\xE9cord2_58": 1393163885
+      "d\xE9cord2_59": 987483627
+      "d\xE9cord2_6": -738434786
+      "d\xE9cord2_60": 440498702
+      "d\xE9cord2_61": 1876188141
+      "d\xE9cord2_62": -87375972
+      "d\xE9cord2_63": -621907610
+      "d\xE9cord2_64": 676974207
+      "d\xE9cord2_65": 1881432104
+      "d\xE9cord2_66": 1058402230
+      "d\xE9cord2_67": 1041027906
+      "d\xE9cord2_68": -454278372
+      "d\xE9cord2_69": 1570669300
+      "d\xE9cord2_7": 2070446175
+      "d\xE9cord2_70": -1886142298
+      "d\xE9cord2_71": 1570449139
+      "d\xE9cord2_72": -1485655464
+      "d\xE9cord2_73": -1036199830
+      "d\xE9cord2_74": -2010107211
+      "d\xE9cord2_75": -1260235226
+      "d\xE9cord2_76": -1074907454
+      "d\xE9cord2_77": 749090800
+      "d\xE9cord2_78": -2021537646
+      "d\xE9cord2_79": -2101927914
+      "d\xE9cord2_8": -487707304
+      "d\xE9cord2_80": 7114297
+      "d\xE9cord2_81": -1451478080
+      "d\xE9cord2_82": -434585040
+      "d\xE9cord2_83": 515420287
+      "d\xE9cord2_84": -1239424276
+      "d\xE9cord2_85": -1901361298
+      "d\xE9cord2_86": -1829929681
+      "d\xE9cord2_87": -1309355076
+      "d\xE9cord2_88": 120071266
+      "d\xE9cord2_89": -1137448838
+      "d\xE9cord2_9": -264078942
+      "d\xE9cord2_90": 1544733366
+      "d\xE9cord2_91": -1305774744
+      "d\xE9cord2_92": -1660360061
+      "d\xE9cord2_93": -368222661
+      "d\xE9cord2_94": 522151671
+      "d\xE9cord2_95": 731645613
+      "d\xE9cord2_96": 1251178597
+      "d\xE9cord2_97": -769058209
+      "d\xE9cord2_98": 385274261
+      "d\xE9cord2_99": 1364244071
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

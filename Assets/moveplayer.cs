@@ -4,6 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum PlayerState
+{
+    walk,
+    Attack,
+    interact
+}
+
 public class moveplayer : MonoBehaviour
 {
     [SerializeField]
@@ -12,7 +19,7 @@ public class moveplayer : MonoBehaviour
     [SerializeField]
 
     public Rigidbody2D rb;
-
+    public PlayerState currentState;
     public GameObject playerPosition;
 
 
@@ -33,6 +40,7 @@ public class moveplayer : MonoBehaviour
 
     private void Start()
     {
+        currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -43,38 +51,69 @@ public class moveplayer : MonoBehaviour
         //verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
         //MovePlayer(horizontalMovement, verticalMovement);
-        
-        animator = GetComponent<Animator>(); 
+
+        animator = GetComponent<Animator>();
         float characterVelocity = Mathf.Abs(rb.velocity.x);
-        
+
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        if(change != Vector3.zero)
+        
+      
+        
+            if (Input.GetButtonDown("Attack") && currentState != PlayerState.Attack)
+            {
+                if (inventaire.instance.hache == true)
+                {
+                    StartCoroutine(AttackCo());
+                }
+
+
+            }
+        
+        else if (currentState == PlayerState.walk)
         {
-            MoveCharacter();
-            animator.SetFloat("moveX", change.x);
-            animator.SetFloat("moveY", change.y);
-            animator.SetBool("mouvement", true);
+            UpdateAnimationAndMove();
         }
-        else
-        {
-            animator.SetBool("mouvement", false);
-        }
+
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-           if(inventaire.instance.projectil == true)
+            if (inventaire.instance.projectil == true)
             {
                 tirer();
             }
-            
-            
-
         }
-
+    } 
+    
+    private IEnumerator AttackCo()
+    {
+        animator.SetBool("attack", true);
+        currentState = PlayerState.Attack;
+        yield return null;
+        animator.SetBool("attack", false);
+        yield return new WaitForSeconds(.33f);
+        currentState = PlayerState.walk;
 
     }
+    void UpdateAnimationAndMove(){
+    
+            if(change != Vector3.zero)
+            {
+                MoveCharacter();
+                animator.SetFloat("moveX", change.x);
+                animator.SetFloat("moveY", change.y);
+                animator.SetBool("mouvement", true);
+            }
+            else
+            {
+                animator.SetBool("mouvement", false);
+            }
+    }
+
+
+
+    
 
     void MoveCharacter()
     {
@@ -118,6 +157,25 @@ public class moveplayer : MonoBehaviour
             playerHealth.TakeDamage(1);
         }
     }
+
+
+       // {
+       //     if (inventaire.instance.projectil == true)
+         //   {
+            //    tirer();
+
+
+
+
+
+
+
+
+
+
+
+
+
     //void MovePlayer(float _horizontalMovement, float _verticalMovement)
     //{
     // Vector3 targetVelocity = new Vector2(_horizontalMovement, _verticalMovement);
